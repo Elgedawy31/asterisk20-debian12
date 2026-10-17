@@ -34,7 +34,7 @@ It does not change the firewall, the network or any other service.
 | --- | --- |
 | Configs | `/etc/asterisk/` |
 | CLI | `sudo asterisk -rvvv` |
-| Service | `sudo systemctl status|restart|stop asterisk` |
+| Service | `sudo systemctl status asterisk` (also `restart`, `stop`) |
 | Logs | `/var/log/asterisk/`, `journalctl -u asterisk` |
 | Build log | `/var/log/asterisk-build.log` |
 | Source tree | `/usr/src/asterisk-20.21.0` |
